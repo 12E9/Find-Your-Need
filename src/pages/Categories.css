@@ -1,0 +1,51 @@
+.categories{
+    margin:20px auto;
+    width:80%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(37, 148, 37);
+    border-radius: 5px;
+}
+.cards{
+    width:250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin:40px 20px;
+    background-color: white;
+}
+.Category-image{
+    width: 230px;
+    height: 150px;
+    
+}
+.Category-name{
+    
+    margin: 5px 0px;
+}
+
+.Category-add-button{
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    background-color: green;
+    color: white;
+    width: 100%;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+.Category-add-button:hover{
+    background-color: black;
+    transform: translateY(2px);
+}
+.Category-add-button:active{
+    transform: translateY(2px);
+}
